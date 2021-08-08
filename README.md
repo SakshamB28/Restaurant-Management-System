@@ -31,7 +31,7 @@ User has the interface to check his/her balance and also order items.
      To load the database :
         
         - Click on +New on the left hand column
-        - Give database name as "canteen_delivery_system" (without quotes and small case) 
+        - Give database name as "restaurant_system" (without quotes and small case) 
         - After creating the database successfully, on the upper main menu panel, click on Import and then click "choose file" from file to import menu. Now browse to directory where you saved the project (expected directory: C:\xampp\htdocs\dbms\canteen_delivery_system.sql) and click on fifa.sql and then go down and click Go (Do not change any other settings).
         - After importing successfully, loading the database is complete.
       
