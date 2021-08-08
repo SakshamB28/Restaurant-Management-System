@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style>
+  ul li
+  {
+    background-color: #fffea6;
+    color: black;
+    position: absolute; 
+    font-weight: 600;
+  }
+  ul li:hover
+  {
+    background-color: #ebe860;
+  }
+</style>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a style = "background-color: #f7f20f; font-weight: 600;" class="navbar-brand" href="#">Restaurant Management System</a>
+    </div>
+    <ul class="nav navbar-nav">
+		<li><a href="list_items.php" target="main">Menu</a></li>
+		<li><a href="order.php" target="main">Order Now</a></li>
+		<li><a href="check_Balance.php" target="main">Check Balance</a></li>
+		<li><a href="order_details.php" target="main">My Orders</a></li>
+		<li><a href="contact.php" target="main">Contact Us</a></li>
+    <li><a href="profile.php" target="main">View Profile</a></li>
+		<li style="float:right; margin-left:800px;"><a href="login.php" target="_top" > Logout </li>
+	</ul>
+  </div>
+</nav>
