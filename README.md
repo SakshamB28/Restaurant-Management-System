@@ -1,4 +1,4 @@
-# Canteen Management System 
+# Restaurant Management System 
 
 Canteen Management System is used to place the food orders and has two parts to it, namely the admin side and user side. Admin can select the items for the day and also perform functionalities like adding user, removing user, adding food items , removing food items, also look at the current orders block wise.
 
